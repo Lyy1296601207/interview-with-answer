@@ -267,5 +267,6 @@
    > 
    > 4、如何打破双亲委派？[这篇文章排版比较舒服](https://www.jianshu.com/p/22d9c0a2d2e9)
    >>  ①SPI机制直接绕开loadclass方法，当前线程设定关联类加载器  
-   > ②自定义类加载器，重写loadclass方法。
+   > ②自定义类加载器，重写loadclass方法。  
+   > PS:类加载器只能加载class文件
 
